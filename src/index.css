@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+:root, html, body, #root{
+    min-height: 100vh;
+    margin: 0;
+}
+
+i {
+    font-size: 1rem;
+}
+
+body {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.83);
+    background-image: url('assets/gtawallpaper.png');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+h1, h2 {
+    font-family: "San Francisco";
+    margin: 15px 0px 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 0;
+}
+
+p { 
+    display: inline;
+    margin: 0;
+    font-weight: 1000;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(90deg, rgba(117,0,182,1) 0%, rgba(255,0,234,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+h3 {
+    font-family: 'San Francisco';
+    font-weight: 100;
+    font-size: 1rem;
+    color: rgb(135, 135, 135);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    border: 1.5px solid rgba(0, 0, 0, 0.457);
+    border-radius: 15px;
+    
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .top {
+        width: 75%;
+    }
+    .links {
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .wrapper {
+        width: 75%;
+    }
+    i {
+        margin: 0.3rem 0.5rem 0 0;
+        font-size: 0.7rem;
+    }
+    .desc {
+        text-align: left;
+    }
+    .hero {
+
+        height: 40%;
+    }
+    #hero-sub {
+        margin: 0 5vh 0 5vh;
+    }
+    .header {
+        margin: 0.3rem 0 0.5rem 0;
+        font-size: 1.1rem;
+    }
+    .desc {
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    
+}
+
+@media (2500px > width > 1024px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    i {
+        margin: 0.9rem 0.9rem 0 0;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 5vh 0 0 0;
+    }
+    .link {
+        margin: 0 3vh 0 3vh;
+    }
+    .wrapper {
+        width: 80%;
+    }
+    .hero {
+    height: 70%;
+    }
+    .header {
+        font-size: 1.5rem;
+    }
+    .desc {
+        font-family: 'San Francisco', sans-serif;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 2500px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    i {
+        margin-top: 1.1vh;
+        font-size: 1.5rem;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 5vh 0 5vh 0;
+    }
+    .link {
+        margin: 0 3vh 0 3vh;
+        padding: 1vh 0 1vh 0;
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+    .wrapper {
+        width: 80%;
+    }
+    .hero {
+    height: 70%;
+    }
+    .header {
+        font-size: 3rem;
+    }
+    .desc {
+        font-family: 'San Francisco', sans-serif;
+        font-size: 2rem;
+    }
+}
+
+
+
+.top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+#root {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-sub {
+    text-align: center;
+}
