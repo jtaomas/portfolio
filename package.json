@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-site",
-  "homepage": "https://jtaomas.github.io/personal-site/",
+  "name": "portfolio",
+  "homepage": "https://jtaomas.github.io/portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
