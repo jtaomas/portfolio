@@ -12,19 +12,19 @@ function App() {
 
             <div className='links'>
                 <div className='link'>
-                    <Link prop={{heading:'LinkedIn', description:'Connect with me via LinkedIn. Displaying my prior work experience and portfolio, and CV.', link:'https://www.linkedin.com/in/thomas-l-195847312/'}}
+                    <Link prop={{heading:'LinkedIn', description:'Connect with me via LinkedIn. Displaying my prior work experience and portfolio, and CV.', link:'https://www.linkedin.com/in/thomas-l-195847312/', newtab:true}}
                     />
                 </div>
                 <div className='link'>
-                    <Link prop={{heading:'Github', description:'Browse my code repositories and projects. See what I\'ve been building and contributing to.', link:'https://github.com/jtaomas'}}
+                    <Link prop={{heading:'Github', description:'Browse my code repositories and projects. See what I\'ve been building and contributing to.', link:'https://github.com/jtaomas', newtab:true}}
                     />
                 </div>
                 <div className='link'>
-                    <Link prop={{heading:'Spotify', description:'Check out what I\'m listening to right now on Spotify, my profile, preferences and playlists.', link:'https://open.spotify.com/user/sts3yjry7hq7qvcyja89vtk0y?si=172c599fbc5c46bd'}}
+                    <Link prop={{heading:'Spotify', description:'Check out what I\'m listening to right now on Spotify, my profile, preferences and playlists.', link:'https://open.spotify.com/user/sts3yjry7hq7qvcyja89vtk0y?si=172c599fbc5c46bd', newtab:true}}
                     />
                 </div>
                 <div className='link'>
-                    <Link prop={{heading:'Contact Me', description:'Click this link to reach out via mail to my gmail address', link:"mailto:toggled@duck.com"}}
+                    <Link prop={{heading:'Contact', description:'Click this link to reach out via mail to my gmail address for requests and app issues.', link:"mailto:txomas24@gmail.com"}}
                     />
                 </div>
             </div>

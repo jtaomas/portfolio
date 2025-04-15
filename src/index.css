@@ -16,7 +16,7 @@ i {
 body {
     color: white;
     background-color: rgba(0, 0, 0, 0.83);
-    background-image: url('assets/gtawallpaper.png');
+    background-image: url('./assets/gtawallpaper.png');
     background-blend-mode: darken;
     background-size: cover;
 }
@@ -53,11 +53,6 @@ a {
     color: inherit;
 }
 
-.link:hover {
-    border: 1.5px solid rgba(0, 0, 0, 0.457);
-    border-radius: 15px;
-    
-}
 
 .link {
     display: flex;
@@ -70,7 +65,7 @@ a {
     align-items: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
     h1 {
         font-size: 2rem;
     }
@@ -86,6 +81,9 @@ a {
         align-items: center;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+    .link { 
+        width: 90%;
     }
     .wrapper {
         width: 75%;
@@ -116,7 +114,57 @@ a {
     
 }
 
-@media (2500px > width > 1024px) {
+@media (1200px >= width > 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .top {
+        width: 75%;
+    }
+    .links {
+        height: 65vh;
+        margin: 1vh 0 0 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .link { 
+        width: 90%;
+    }
+    .wrapper {
+        width: 75%;
+    }
+    i {
+        margin: 0.3rem 0.5rem 0 0;
+        font-size: 0.9rem;
+    }
+    .desc {
+        text-align: left;
+    }
+    .hero {
+
+        height: 40%;
+    }
+    #hero-sub {
+        margin: 0 5vh 0 5vh;
+    }
+    .header {
+        margin: 0.3rem 0 0.5rem 0;
+        font-size: 1.7rem;
+    }
+    .desc {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    
+}
+
+@media (2500px >= width > 1200px) {
     h1 {
         font-size: 3rem;
     }
@@ -134,7 +182,10 @@ a {
         margin: 5vh 0 0 0;
     }
     .link {
-        margin: 0 3vh 0 3vh;
+        margin: 0 2.1vh 0 2.1vh;
+        padding: 1vh 0 2.5vh 0;
+        background-color: rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem;
     }
     .wrapper {
         width: 80%;
@@ -171,8 +222,9 @@ a {
     }
     .link {
         margin: 0 3vh 0 3vh;
-        padding: 1vh 0 1vh 0;
-        background-color: rgba(0, 0, 0, 0.363);
+        padding: 1vh 0 2.5vh 0;
+        background-color: rgba(0, 0, 0, 0.16);
+        border-radius: 3rem;
     }
     .wrapper {
         width: 80%;
@@ -181,11 +233,11 @@ a {
     height: 70%;
     }
     .header {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
     .desc {
         font-family: 'San Francisco', sans-serif;
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 }
 
